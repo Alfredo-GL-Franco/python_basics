@@ -1,0 +1,12 @@
+print("===========================")
+print("Ejemplo de concatenación")
+print("===========================")
+
+nombre= input("Escriba su nombre: ")
+apellido= input("Escriba su apellido: ")
+edad= input("Escriba su edad: ")
+print("Hola {} {}, tu edad es {}".format(nombre,apellido,edad))
+print("Hola " + nombre + " " + apellido + ", tu edad es " + edad)
+print("Hola %s %s, tu edad es %s" % (nombre, apellido,edad))
+print("Hola {0} {1}, tu edad es {2}".format(nombre,apellido, edad))
+print("Hola {name} {ape}, su edad es {age}".format(name="JUAN",ape="LOPEZ", age="32"))

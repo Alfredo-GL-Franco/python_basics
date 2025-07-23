@@ -1,0 +1,26 @@
+print("Ejemplo meto strip")
+print("=====================")
+ 
+cadena="\tQUE ROLLO BANDA\n" 
+print(cadena)
+ca2="Hola ernesto"
+print(ca2)
+
+cadena=cadena.strip()
+print(cadena)
+ca2=ca2.strip("s Hto")
+print(ca2)
+
+print("Ejemplo meto rstrip")
+print("=====================")
+ca2="Hola ernesto"
+print(ca2)
+ca2=ca2.rstrip("s Hto")
+print(ca2)
+
+print("Ejemplo meto lstrip")
+print("=====================")
+ca2="Hola ernesto"
+print(ca2)
+ca2=ca2.lstrip("s Hto")
+print(ca2)
